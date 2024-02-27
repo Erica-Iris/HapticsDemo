@@ -1,8 +1,8 @@
 import SwiftUI
-struct TapArea:View{
+struct TapArea: View {
     @State var x_position=0.5
     @State var y_position=0.5
-    var body:some View{
+    var body: some View {
         RoundedRectangle(cornerSize: CGSize(width: 25, height: 25))
             .fill(.red)
             .frame(width: 350, height: 350)
@@ -12,8 +12,4 @@ struct TapArea:View{
                 y_position=location.y
             }
     }
-}
-
-#Preview {
-    ContentView()
 }

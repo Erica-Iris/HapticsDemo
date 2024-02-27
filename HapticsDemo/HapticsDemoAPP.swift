@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct hapticsexampleApp: App {
+struct HapticsDemoApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

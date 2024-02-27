@@ -9,14 +9,9 @@
 /* Begin PBXBuildFile section */
 		0331DC6B2A8B61EC004AA682 /* TapArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0331DC6A2A8B61EC004AA682 /* TapArea.swift */; };
 		0331DC6D2A8B640D004AA682 /* TapEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0331DC6C2A8B640D004AA682 /* TapEngine.swift */; };
-		0331DCA82A8BC82A004AA682 /* drag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0331DCA72A8BC82A004AA682 /* drag.swift */; };
-		034594452A83C1B9000D2184 /* hapticsexampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034594442A83C1B9000D2184 /* hapticsexampleApp.swift */; };
+		034594452A83C1B9000D2184 /* HapticsDemoAPP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034594442A83C1B9000D2184 /* HapticsDemoAPP.swift */; };
 		034594472A83C1B9000D2184 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034594462A83C1B9000D2184 /* ContentView.swift */; };
 		034594492A83C1BC000D2184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034594482A83C1BC000D2184 /* Assets.xcassets */; };
-		0345944C2A83C1BC000D2184 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0345944B2A83C1BC000D2184 /* Preview Assets.xcassets */; };
-		034594562A83C1BC000D2184 /* hapticsexampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034594552A83C1BC000D2184 /* hapticsexampleTests.swift */; };
-		034594602A83C1BC000D2184 /* hapticsexampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0345945F2A83C1BC000D2184 /* hapticsexampleUITests.swift */; };
-		034594622A83C1BC000D2184 /* hapticsexampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034594612A83C1BC000D2184 /* hapticsexampleUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,17 +34,12 @@
 /* Begin PBXFileReference section */
 		0331DC6A2A8B61EC004AA682 /* TapArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapArea.swift; sourceTree = "<group>"; };
 		0331DC6C2A8B640D004AA682 /* TapEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapEngine.swift; sourceTree = "<group>"; };
-		0331DCA72A8BC82A004AA682 /* drag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drag.swift; sourceTree = "<group>"; };
-		034594412A83C1B9000D2184 /* hapticsexample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hapticsexample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		034594442A83C1B9000D2184 /* hapticsexampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hapticsexampleApp.swift; sourceTree = "<group>"; };
+		034594412A83C1B9000D2184 /* HapticsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HapticsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		034594442A83C1B9000D2184 /* HapticsDemoAPP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsDemoAPP.swift; sourceTree = "<group>"; };
 		034594462A83C1B9000D2184 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		034594482A83C1BC000D2184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0345944B2A83C1BC000D2184 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		034594512A83C1BC000D2184 /* hapticsexampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hapticsexampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		034594552A83C1BC000D2184 /* hapticsexampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hapticsexampleTests.swift; sourceTree = "<group>"; };
-		0345945B2A83C1BC000D2184 /* hapticsexampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hapticsexampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0345945F2A83C1BC000D2184 /* hapticsexampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hapticsexampleUITests.swift; sourceTree = "<group>"; };
-		034594612A83C1BC000D2184 /* hapticsexampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hapticsexampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		034594512A83C1BC000D2184 /* HapticsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HapticsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0345945B2A83C1BC000D2184 /* HapticsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HapticsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +70,7 @@
 		034594382A83C1B9000D2184 = {
 			isa = PBXGroup;
 			children = (
-				034594432A83C1B9000D2184 /* hapticsexample */,
-				034594542A83C1BC000D2184 /* hapticsexampleTests */,
-				0345945E2A83C1BC000D2184 /* hapticsexampleUITests */,
+				034594432A83C1B9000D2184 /* HapticsDemo */,
 				034594422A83C1B9000D2184 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,58 +78,31 @@
 		034594422A83C1B9000D2184 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				034594412A83C1B9000D2184 /* hapticsexample.app */,
-				034594512A83C1BC000D2184 /* hapticsexampleTests.xctest */,
-				0345945B2A83C1BC000D2184 /* hapticsexampleUITests.xctest */,
+				034594412A83C1B9000D2184 /* HapticsDemo.app */,
+				034594512A83C1BC000D2184 /* HapticsDemoTests.xctest */,
+				0345945B2A83C1BC000D2184 /* HapticsDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		034594432A83C1B9000D2184 /* hapticsexample */ = {
+		034594432A83C1B9000D2184 /* HapticsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				0331DCA72A8BC82A004AA682 /* drag.swift */,
-				034594442A83C1B9000D2184 /* hapticsexampleApp.swift */,
+				034594442A83C1B9000D2184 /* HapticsDemoAPP.swift */,
 				034594462A83C1B9000D2184 /* ContentView.swift */,
 				0331DC6A2A8B61EC004AA682 /* TapArea.swift */,
 				0331DC6C2A8B640D004AA682 /* TapEngine.swift */,
 				034594482A83C1BC000D2184 /* Assets.xcassets */,
-				0345944A2A83C1BC000D2184 /* Preview Content */,
 			);
-			path = hapticsexample;
-			sourceTree = "<group>";
-		};
-		0345944A2A83C1BC000D2184 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				0345944B2A83C1BC000D2184 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		034594542A83C1BC000D2184 /* hapticsexampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				034594552A83C1BC000D2184 /* hapticsexampleTests.swift */,
-			);
-			path = hapticsexampleTests;
-			sourceTree = "<group>";
-		};
-		0345945E2A83C1BC000D2184 /* hapticsexampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0345945F2A83C1BC000D2184 /* hapticsexampleUITests.swift */,
-				034594612A83C1BC000D2184 /* hapticsexampleUITestsLaunchTests.swift */,
-			);
-			path = hapticsexampleUITests;
+			path = HapticsDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		034594402A83C1B9000D2184 /* hapticsexample */ = {
+		034594402A83C1B9000D2184 /* HapticsDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 034594652A83C1BC000D2184 /* Build configuration list for PBXNativeTarget "hapticsexample" */;
+			buildConfigurationList = 034594652A83C1BC000D2184 /* Build configuration list for PBXNativeTarget "HapticsDemo" */;
 			buildPhases = (
 				0345943D2A83C1B9000D2184 /* Sources */,
 				0345943E2A83C1B9000D2184 /* Frameworks */,
@@ -151,14 +112,14 @@
 			);
 			dependencies = (
 			);
-			name = hapticsexample;
+			name = HapticsDemo;
 			productName = hapticsexample;
-			productReference = 034594412A83C1B9000D2184 /* hapticsexample.app */;
+			productReference = 034594412A83C1B9000D2184 /* HapticsDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		034594502A83C1BC000D2184 /* hapticsexampleTests */ = {
+		034594502A83C1BC000D2184 /* HapticsDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 034594682A83C1BC000D2184 /* Build configuration list for PBXNativeTarget "hapticsexampleTests" */;
+			buildConfigurationList = 034594682A83C1BC000D2184 /* Build configuration list for PBXNativeTarget "HapticsDemoTests" */;
 			buildPhases = (
 				0345944D2A83C1BC000D2184 /* Sources */,
 				0345944E2A83C1BC000D2184 /* Frameworks */,
@@ -169,14 +130,14 @@
 			dependencies = (
 				034594532A83C1BC000D2184 /* PBXTargetDependency */,
 			);
-			name = hapticsexampleTests;
+			name = HapticsDemoTests;
 			productName = hapticsexampleTests;
-			productReference = 034594512A83C1BC000D2184 /* hapticsexampleTests.xctest */;
+			productReference = 034594512A83C1BC000D2184 /* HapticsDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0345945A2A83C1BC000D2184 /* hapticsexampleUITests */ = {
+		0345945A2A83C1BC000D2184 /* HapticsDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0345946B2A83C1BC000D2184 /* Build configuration list for PBXNativeTarget "hapticsexampleUITests" */;
+			buildConfigurationList = 0345946B2A83C1BC000D2184 /* Build configuration list for PBXNativeTarget "HapticsDemoUITests" */;
 			buildPhases = (
 				034594572A83C1BC000D2184 /* Sources */,
 				034594582A83C1BC000D2184 /* Frameworks */,
@@ -187,9 +148,9 @@
 			dependencies = (
 				0345945D2A83C1BC000D2184 /* PBXTargetDependency */,
 			);
-			name = hapticsexampleUITests;
+			name = HapticsDemoUITests;
 			productName = hapticsexampleUITests;
-			productReference = 0345945B2A83C1BC000D2184 /* hapticsexampleUITests.xctest */;
+			productReference = 0345945B2A83C1BC000D2184 /* HapticsDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +176,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0345943C2A83C1B9000D2184 /* Build configuration list for PBXProject "hapticsexample" */;
+			buildConfigurationList = 0345943C2A83C1B9000D2184 /* Build configuration list for PBXProject "HapticsDemo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,9 +189,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				034594402A83C1B9000D2184 /* hapticsexample */,
-				034594502A83C1BC000D2184 /* hapticsexampleTests */,
-				0345945A2A83C1BC000D2184 /* hapticsexampleUITests */,
+				034594402A83C1B9000D2184 /* HapticsDemo */,
+				034594502A83C1BC000D2184 /* HapticsDemoTests */,
+				0345945A2A83C1BC000D2184 /* HapticsDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,7 +201,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0345944C2A83C1BC000D2184 /* Preview Assets.xcassets in Resources */,
 				034594492A83C1BC000D2184 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,9 +227,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				034594472A83C1B9000D2184 /* ContentView.swift in Sources */,
-				0331DCA82A8BC82A004AA682 /* drag.swift in Sources */,
 				0331DC6B2A8B61EC004AA682 /* TapArea.swift in Sources */,
-				034594452A83C1B9000D2184 /* hapticsexampleApp.swift in Sources */,
+				034594452A83C1B9000D2184 /* HapticsDemoAPP.swift in Sources */,
 				0331DC6D2A8B640D004AA682 /* TapEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,7 +237,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				034594562A83C1BC000D2184 /* hapticsexampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,8 +244,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				034594622A83C1BC000D2184 /* hapticsexampleUITestsLaunchTests.swift in Sources */,
-				034594602A83C1BC000D2184 /* hapticsexampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,12 +252,12 @@
 /* Begin PBXTargetDependency section */
 		034594532A83C1BC000D2184 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 034594402A83C1B9000D2184 /* hapticsexample */;
+			target = 034594402A83C1B9000D2184 /* HapticsDemo */;
 			targetProxy = 034594522A83C1BC000D2184 /* PBXContainerItemProxy */;
 		};
 		0345945D2A83C1BC000D2184 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 034594402A83C1B9000D2184 /* hapticsexample */;
+			target = 034594402A83C1B9000D2184 /* HapticsDemo */;
 			targetProxy = 0345945C2A83C1BC000D2184 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -433,7 +389,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"hapticsexample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = FUX8BPCLMV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -463,7 +419,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"hapticsexample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = FUX8BPCLMV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -501,7 +457,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hapticsexample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hapticsexample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HapticsDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HapticsDemo";
 			};
 			name = Debug;
 		};
@@ -520,7 +476,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hapticsexample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hapticsexample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HapticsDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HapticsDemo";
 			};
 			name = Release;
 		};
@@ -561,7 +517,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0345943C2A83C1B9000D2184 /* Build configuration list for PBXProject "hapticsexample" */ = {
+		0345943C2A83C1B9000D2184 /* Build configuration list for PBXProject "HapticsDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				034594632A83C1BC000D2184 /* Debug */,
@@ -570,7 +526,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		034594652A83C1BC000D2184 /* Build configuration list for PBXNativeTarget "hapticsexample" */ = {
+		034594652A83C1BC000D2184 /* Build configuration list for PBXNativeTarget "HapticsDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				034594662A83C1BC000D2184 /* Debug */,
@@ -579,7 +535,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		034594682A83C1BC000D2184 /* Build configuration list for PBXNativeTarget "hapticsexampleTests" */ = {
+		034594682A83C1BC000D2184 /* Build configuration list for PBXNativeTarget "HapticsDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				034594692A83C1BC000D2184 /* Debug */,
@@ -588,7 +544,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0345946B2A83C1BC000D2184 /* Build configuration list for PBXNativeTarget "hapticsexampleUITests" */ = {
+		0345946B2A83C1BC000D2184 /* Build configuration list for PBXNativeTarget "HapticsDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0345946C2A83C1BC000D2184 /* Debug */,

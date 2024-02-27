@@ -11,5 +11,4 @@ import UIKit
 class GlobalModel: ObservableObject {
     @Published var intensity = 0.5
     @Published var sharpness = 0.5
-    
 }
